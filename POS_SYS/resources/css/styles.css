@@ -1,0 +1,203 @@
+body {
+    height: 100vh;
+    /* color: rgb(255, 0, 0); */
+    background-image: url("../img/79.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    background-color:#223363cf;
+    height: 3.5rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+}
+
+footer * {
+    color: #f8f8f8;
+}
+
+.admin-view #admin-area {
+    min-height: 100vh;
+    background-color: #f3f3f38c;
+    background-image: url("../img/26.gif");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    /* width: 100%; */
+    /* z-index: index;
+    opacity: 0.7; */
+}
+
+.admin-view .admin-links {
+    background-color: #223363bf;
+}
+
+.admin-view .admin-links * {
+    background-color: #2233636e;
+    color: #000000;
+}
+
+.admin-view .admin-links li {
+    color: rgb(72, 25, 25);
+    border-color: #fff;
+}
+
+.admin-view .admin-links .list-group-item {
+    border-bottom: 1px solid #fff;
+}
+
+
+.admin-view .admin-links li a {
+    display: block;
+    color: #fff;
+    border-color: #fff;
+    text-decoration: #fff;
+    transition: opacity .5s;
+}
+
+.admin-view .admin-links li a:hover{
+    opacity: .7;
+    transform:scale(1.1) rotate(3deg);
+}
+/* ------------- */
+#asd{
+height: 66%;
+width:35rem;
+margin: auto;
+color:whitesmoke;
+backdrop-filter: blur(16px) saturate(180%);
+-webkit-backdrop-filter: blur(16px) saturate(180%);
+background-color: rgba(41, 60, 152, 0.66);
+border-radius: 12px;
+border: 2px solid rgba(255, 255, 255, 0.125);
+padding: 20px 25px;
+}
+
+/* ................. */
+
+    div .login{
+        position: absolute;
+        top:60%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        width: 600px;
+        background-image: url("../img/98.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        height:80vh;
+        margin-top: -5rem;
+        box-shadow: rgb(0 0 0 / 63%) 0px 50px 100px -20px, rgb(0 0 0 / 75%) 0px 30px 60px -30px, rgb(0 0 0 / 94%) 0px -2px 6px 0px inset;
+
+        
+
+        
+    }
+        form h1{
+            text-align:center;
+            margin-top:1rem ;
+            padding-top:2.5rem ;
+        }
+        .login form{
+            height: 40vw;
+        }
+        form .log{
+            position:relative;
+            border-bottom: 2px solid #adadad;
+            margin: 30px 0;
+        }
+        .log input{
+            width: 100%;
+            padding: 0 5px;
+            height: 40px;
+            font-size: 20px;
+            color: #e9f4fb;
+            border: none;
+            background-color: #294286;
+            outline: none;
+        
+}
+        #submit{
+            width: 100%;
+            height: 50px;
+            border: 1px solid;
+            background: #294286ed;
+            border-radius: 25px;
+            font-size: 18px;
+            color: #e9f4fb;
+            font-weight: 700;
+            cursor: pointer;
+            outline: none;
+            margin-top: 1rem; 
+        }
+        #submit:hover{
+            background-color: rgb(89, 78, 78);
+        }
+
+
+
+
+
+
+
+        @media screen and (max-width: 600px) {
+            div .login{
+                position: absolute;
+                top:60%;
+                left:50%;
+                transform: translate(-50%,-50%);
+                width: 300px;
+                background-image: url("../img/11.gif");
+                background-repeat: no-repeat;
+                background-size: cover;
+                border-radius: 10px;
+                height:80vh;
+                margin-top: -5rem;
+            }
+            }
+
+        @media screen and (max-width: 300px) {
+            div .login{
+                position: absolute;
+                top:60%;
+                left:50%;
+                transform: translate(-50%,-50%);
+                width: 150px;
+                background-image: url("../img/21.gif");
+                background-repeat: no-repeat;
+                background-size: cover;
+                border-radius: 10px;
+                height:65vh;
+                margin-top: -5rem;
+            }
+            }
+
+
+        @media screen and (max-width: 800px) {
+            .admin-view .admin-links li {
+                display: flex;
+                flex-direction:column ;
+                justify-content: center;
+                align-items: center;
+            }
+            }
+
+
+        /* @media screen and (max-width: 800px) {
+            #table_transaction {
+                display: flex;
+                flex-direction:column ;
+                justify-content: center;
+                align-items: center;
+            }
+            } */
+
+
+/* ------------------------------------------- */
